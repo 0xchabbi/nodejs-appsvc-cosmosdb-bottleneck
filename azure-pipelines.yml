@@ -10,12 +10,12 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  webAppName: '<Name of your webapp>'
-  serviceConnection: '<Name of your webARM Service connection>'
-  azureSubscriptionId: '<Azure subscriptionId>'
-  loadTestResource: '<Name of your load test resource>'
-  loadTestResourceGroup: '<Name of your load test resource group>'
-  location: 'EAST US'
+  webAppName: 'testappchabbi'
+  serviceConnection: 'bchabbi-Space Game - web - Pipeline-8fdfcd42-cb6a-4f09-bd1d-984a332c84b1'
+  azureSubscriptionId: '8fdfcd42-cb6a-4f09-bd1d-984a332c84b1'
+  loadTestResource: 'loadtestchabbi'
+  loadTestResourceGroup: 'testapp'
+  location: 'West Europe'
 
 
 stages:
