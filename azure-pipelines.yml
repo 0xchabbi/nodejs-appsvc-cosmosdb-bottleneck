@@ -10,11 +10,11 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  webAppName: 'testappchabbi'
+  webAppName: 'testappchabbi1'
   serviceConnection: 'testapp'
   azureSubscriptionId: '8fdfcd42-cb6a-4f09-bd1d-984a332c84b1'
   loadTestResource: 'loadtestchabbi'
-  loadTestResourceGroup: 'testapp'
+  loadTestResourceGroup: 'testappchabbi1westeurope-rg'
   location: 'West Europe'
 
 
